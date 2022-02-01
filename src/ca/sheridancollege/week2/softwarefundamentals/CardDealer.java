@@ -15,12 +15,12 @@ public class CardDealer
 {
    public static void main (String[] args)
    {
-      Card nineClubs = new Card("Clbs", 9);
-      nineClubs.setSuit("diamonds");
+      Card nineClubs = new Card("Clubs", 9);
+      nineClubs.setSuit("Diamonds");
 
       Card juanRiosCard = new Card("Spds", 1);
-      juanRiosCard.setSuit("spades");
-      
+      juanRiosCard.setSuit("Spades");
+
       System.out.println("This card's suit is " + juanRiosCard.getSuit() + " and the value is " + juanRiosCard.getValue());
    }
 }
