@@ -20,5 +20,7 @@ public class CardDealer
 
       Card juanRiosCard = new Card("Spds", 1);
       juanRiosCard.setSuit("spades");
+      
+      System.out.println("This card's suit is " + juanRiosCard.getSuit() + " and the value is " + juanRiosCard.getValue());
    }
 }
